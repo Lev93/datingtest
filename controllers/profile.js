@@ -72,7 +72,7 @@ exports.addphoto = async (req, res, next) => {
 exports.searchProfile = async (req, res, next) => {
   try {
     const { input, lng, type } = req.body;
-    const countries = await db.execute(`SELECT country_id, title_${lng} AS title FROM ${type} WHERE title_${lng} LIKE '${input}%' Limit 5;`);
+    const countries = await db.execute(`SELECT id AS country_id, title_${lng.short} AS title FROM ${type} WHERE title_${lng.short} LIKE '${input}%' Limit 5;`);
     res.status(200).json({ countries: countries[0] });
   } catch (err) {
     if (!err.statusCode) {
