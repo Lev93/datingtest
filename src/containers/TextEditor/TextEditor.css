@@ -1,0 +1,33 @@
+.text-editor {
+    height: 100%;
+}
+
+.text-editor__conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+
+.text-editor__button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-editor__button__label {
+    color: #334249;
+    font-weight: 300;
+    font-size: 16px;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.rdw-editor-main {
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}

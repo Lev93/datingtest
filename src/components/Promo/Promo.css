@@ -1,0 +1,128 @@
+.promo{
+    position: relative;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.promo__image__container {
+  width: 100%;
+  height: 350px;
+}
+
+.promo__image {
+   width: 100%;
+   height: 100%;
+   background-position: 50% center;
+   background-size: cover;
+}
+
+.promo__image--first {
+    animation: first 1s ease-out forwards;
+}
+
+.promo__image--second {
+    animation: second 1s ease-out forwards;
+}
+
+@keyframes first {
+    0% {
+        background-image: url('./slider-2.jpg');
+    }
+    100% {
+        background-image: url('./slider-1.jpg');
+    }
+}
+
+@keyframes second {
+    0% {
+        background-image: url('./slider-1.jpg');
+    }
+    100% {
+        background-image: url('./slider-2.jpg');
+    }
+}
+
+.promo__image__text__container {
+    padding-top: 150px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+.promo__image__text {
+    font-size: 30px;
+    line-height: 35px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.promo__image__reg {
+    width: 160px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 48px;
+    background-color: #e74c3c;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .promo{
+    margin-bottom: 0;
+  }
+
+  .promo__image__container {
+    height: 570px;
+  }
+
+.promo__image__text__container {
+    padding-top: 30%;
+    width: 750px;
+    margin-left: auto;
+}
+
+  .promo__image__text {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .promo__image__container {
+    height: 650px;
+  }
+
+  .promo__image__text__container {
+    width: 970px;
+    padding-top: 250px;
+  }
+
+  .promo__image__text {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .promo__image__container {
+    height: 800px;
+  }
+
+  .promo__image__text__container {
+    padding-top: 350px;
+    width: 1200px;
+  }
+
+  .promo__image__text {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}

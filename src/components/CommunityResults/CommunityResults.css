@@ -1,0 +1,319 @@
+.community-results {
+    width: 100%;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community-results__title__container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.community-results__title {
+    font-size: 30px;
+    color: #2e3c43;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.community-results__results {
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    max-width: 1200px;
+}
+
+.community-results__no-results {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #334249;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.community-results__results__user {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.community-results__results__user__avatar__conteiner {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-results__results__user__avatar {
+    width: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    max-height: 150px;
+}
+
+.community-results__results__user__name {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #334249;
+    text-align: center;
+}
+
+.community-results__results__user__name:hover {
+    color: #e74c3c;
+}
+
+.community-results__results__user__infos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.community-results__results__user__info {
+    font-size: 12px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #334249;
+    margin-right: 10px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+}
+
+.pages__link {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #e74c3c;
+}
+
+.pages__link:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s, color ease-in-out 0.5s;
+}
+
+.pages__link--active {
+    padding: 10px;
+    background-color: #fff;
+    color: #e74c3c;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #e74c3c;
+}
+
+.pages__link--active:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s, color ease-in-out 0.5s;
+}
+
+.community-results__sort__conteiner {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.community-results__sort {
+    color: royalblue;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.community-results__sort--active {
+    color: #e74c3c;
+}
+
+.community-results__sort_title {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;  
+}
+
+.community-results__sort--asc {
+    position: relative;
+}
+
+.community-results__sort--asc::after {
+    position: absolute;
+    content: '';
+    background-image: url("./arrow-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: -20px;
+}
+
+.community-results__sort--desc {
+    position: relative;
+}
+
+.community-results__sort--desc::after {
+    position: absolute;
+    content: '';
+    background-image: url("./arrow-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: -20px;
+    transform: rotate(180deg);
+}
+
+@media (min-width: 320px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 180px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 180px;
+    }
+}
+
+@media (min-width: 360px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 200px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 380px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 220px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 220px;
+    }
+}
+
+@media (min-width: 400px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 250px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 400px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 250px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 450px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 300px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 520px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 350px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 350px;
+    }
+}
+
+@media (min-width: 560px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 400px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 630px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 450px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 450px;
+    }
+}
+
+@media (min-width: 700px) {
+    .community-results__results__user__avatar__conteiner {
+        height: 500px;
+    }
+
+    .community-results__results__user__avatar {
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .community-results__results__user {
+        width: 16.66%;
+        flex-shrink: 0;
+    }
+
+    .community-results__results__user__avatar__conteiner {
+        max-height: 220px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .community-results {
+        width: 1200px;
+    }
+}

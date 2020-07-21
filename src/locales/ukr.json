@@ -1,0 +1,354 @@
+{
+  "Mainmenu": {
+    "Home": "Головна",
+    "Blog": "Блог",
+    "Community": "Спільнота",
+    "Pricing": "Цiни",
+    "Aboutus": "Про нас",
+    "Login": "Увійти", 
+    "Registration": "Реєстрація",
+    "Logout": "Вийти",
+    "MyProfile": "Мій профіль",
+    "advancedsearch": "Розширений пошук",
+    "MapSearch": "Пошук по мапі",
+    "QuickMatch": "Швидкий підбір",
+    "messages": "Повідомлення",
+    "blogCreate": "Створити новий пост"
+  },
+  "loading": "...Завантаження",
+  "error": {
+    "404": "Помилка 404",
+    "error": "Помилка",
+    "pagenotfound": "Сторінку не знайдено",
+    "goToHomePage": "На головну",
+    "userNotExist": "Цей користувач не існує",
+    "networkProblems": "Проблеми з мережею. Спробуй пізніше.",
+    "notAuthenticated": "Ви не авторизовані!",
+    "like": "Ви вже поставили лайк!"
+  },
+  "MainPage": {
+    "slogan": "Слоган",
+    "man": "Чоловік",
+    "woman": "Жінка",
+    "iama": "Я",
+    "seeking": "Шукаю",
+    "from": "Вік від",
+    "to": "Вік до",
+    "search": "Пошук",
+    "welcome": "Ласкаво просимо на VeroDate",
+    "totalMembers": "Всього користувачів",
+    "membersOnline": "Користувачів онлайн",
+    "menOnline": "Чоловіків онлайн",
+    "womenOnline": "Жінок онлайн",
+    "mobileTitle": "Завантажити додаток VeroDate",
+    "mobileText": "Безкоштовно в усіх магазинах Playstore, AppStore i Microsoft Store",
+    "reviews": {
+      "1": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+      "2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+      "3": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
+    },
+    "soulmate": {
+      "maintitle": "Кроки для пошуку другої половинки",
+      "createprofile": "Створити профіль",
+      "createprofiletext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+      "findmatches": "Знайти збіг",
+      "findmatchestext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+      "startdating": "Призначити побачення",
+      "startdatingtext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    "lastRegistered": "Останні зареєстровані користувачі",
+    "age": " років",
+    "map": {
+      "title": "Знайти людей на карті",
+      "city": "Ваше місто",
+      "distance": "дистанція пошуку"
+    } 
+
+  },
+  "login": {
+    "title": "Увійти",
+    "email": "Email адрес",
+    "password": "Пароль",
+    "emailerror": "Некоректний email",
+    "passworderror": "Пароль повинен бути 12 символів в довжину",
+    "login": "Увійти",
+    "resemailerror": "Користувач з таким email не найден",
+    "respassworderror": "Невірний пароль",
+    "rememberme": "Запам'ятати мене"
+  },
+  "reg": {
+    "title": "Реєстрація",
+    "name": "Iм'я",
+    "nameerror": "Занадто короткий ім'я",
+    "gender": "Стать",
+    "male": "Чоловік",
+    "female": "Жіночий",
+    "birhday": "дата народження",
+    "password": "Повторіть пароль",
+    "passworderror": "Паролі не співпадають",
+    "reg": "Зареєструватися",
+    "erroremail": "Перевірка не вдалася. Переконайтеся, що цей email не використовувалася раніше!",
+    "errornetwork": "Проблеми з мережею. Спробуй пізніше."
+  },
+  "footer": {
+    "text1": "There are many variations of passag-es of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+    "text2": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.",
+    "information": "Iнформація",
+    "aboutus": "Про нас",
+    "contactus": "Зв'язатися з нами",
+    "membership": "Membership",
+    "privatepolicy": "Персональні дані",
+    "support": "Підтримка",
+    "posts": "Нові пости",
+    "newstitle": "Розсилка",
+    "newstext": "Отримайте лист безпосередньо в вашу поштову скриньку після кожного поста.",
+    "copyright": "Copyright © 2020. VeroDate. all rights reserved"
+  },
+  "messages": {
+    "title": "Ваші контакти",
+    "searchplaceholder": "Пошук користувачів..",
+    "wasOnline": "був (а) онлайн",
+    "today": "Сьогодні",
+    "yesterday": "Вчора",
+    "write": "Напишіть ваше повідомлення...",
+    "contactsNone": "Контакти не знайдені",
+    "block": "Заблокувати цього користувача",
+    "cancelBlock": "Розблокувати цього користувача",
+    "filter": {
+      "all": "Всі контакти",
+      "unread": "Непрочитані контакти",
+      "blocked": "Заблокированные контакты",
+      "active": "Активні контакти",
+      "new": "Нові запити",
+      "usersRequests": "Ваші запити"
+    },
+    "writing": "Користувач щось вам пише...",
+    "status": {
+      "request sent": "Ваш запит відправлено. Чекайте на відповідь!",
+      "request": "Цей користувач хоче познайомиться з вами!",
+      "accept": "прийняти",
+      "decline": "відхилити",
+      "requestDeclined": "Ваш запит відхилено.",
+      "requestDeclinedUser": "Ви відхилили запит.",
+      "requestAccepted": "Ваш запит прийнятий. Тепер ви можете писати повідомлення!",
+      "requestAcceptedUser": "Ви прийняли запит. Тепер ви можете писати повідомлення!",
+      "blocked": "Контакт заблокований.",
+      "restore": "Відновити контакт",
+      "blockedByUser": "Користувач заблокував вас. Ви більше не можете писати йому."
+    }
+  },
+  "blogs": {
+    "mainTitle": "Блоги",
+    "title": "Всi блоги",
+    "readMore": "Прочитати повністю",
+    "categories": "Категорії",
+    "previous": "Попередні",
+    "next": "Наступні",
+    "no": "Пости не знайдені",
+    "sort": {
+      "sortby": "Сортування по",
+      "views": "популярності",
+      "comments": "обговорювана",
+      "likes": "райтингу",
+      "date": "датою"
+    },
+    "types": {
+      "all": "Усе",
+      "dating": "Знайомства",
+      "news": "Новини",
+      "success": "Історії успіху",
+      "recomendations": "Рекомендації"
+    }
+  },
+  "blogCreate": {
+    "mainTitle": "Блоги",
+    "title": "Створити новий блог",
+    "create": "Створити",
+    "category": "Уточнити за категорією",
+    "titleName": "Заголовок"
+  },
+  "blog": {
+    "mainTitle": "Блоги",
+    "title": "Пости",
+    "comments": "Коментарі",
+    "newComment": "Залишити коментар",
+    "submit": "Надіслати"
+  },
+  "community": {
+    "mainTitle": "Спільнота",
+    "advancedSearch": "Розширений пошук",
+    "searchResults": "Результати пошуку",
+    "noResults": "Немає результатів",
+    "city": "Місто: ",
+    "lastonline": "Був(а) в мережі: ",
+    "minAgo": "хв. назад",
+    "hoursAgo": "г. назад",
+    "daysAgo": "д. назад",
+    "showmore": "Показати ще",
+    "next": "Наступний",
+    "sort": {
+      "sortby": "Сортування по",
+      "byregistrationdate": "Датою реєстрації",
+      "byage": "Віку",
+      "bylastonline": "Останньому заходу на сайт"
+    }
+  },
+  "advancedSearch":{
+    "mainTitle": "Спільнота",
+    "title": "Розширений пошук",
+    "searchTitle": "Шукайте людей тут",
+    "chooseOne": "Виберіть один пункт",
+    "search": "Пошук",
+    "onlyNew": "Тільки нові"
+  },
+  "mapSearch": {
+    "title": "Пошук по мапі",
+    "find": "Пошук по мапі",
+    "advancedSearch": "Відкрити розширений пошук",
+    "closeAdvancedSearch": "Закрити розширений пошук",
+    "man": "Чоловіка",
+    "woman": "Жінку"
+  },
+  "quickMatch": {
+    "title": "Швидкий підбір",
+    "mainTitle": "Спільнота",
+    "nophotos": "Користувач не додав фото.",
+    "error": "Користувачі не знайдені.",
+    "noUsers": "Ви подивилися всі анкети. Спробуйте зайти сюди пізніше."
+  },
+  "userPage": {
+    "like": "Лайк",
+    "chat": "Почати чат",
+    "aboutme": "Про мене",
+    "lookingfor": "Шукаю",
+    "photo": "Фото",
+    "posts": "Останні пости",
+    "adddescription": "Додати",
+    "changeAvatar": "Змінити аватар і фон",
+    "confirm": "Підтвердити",
+    "upload": "Завантажити",
+    "chooseAvatar": "Завантажити аватар",
+    "chooseBackground": "Завантажити фон",
+    "choosePhoto": "Додати нове фото",
+    "avatarUploadDescription": "Максимальний розмір аватарки 1 Mb. Максимальний розмір фону 6Mb.",
+    "years": "років",
+    "place": "Моє місце розташування",
+    "mapDescription": "Відзначте зручне для зустрічей розташування",
+    "imageErrors": {
+      "sizeError": "Файл занадто великий!",
+      "typeError": "Невірний формат!",
+      "networkError": "Проблеми з мережею. Спробуй пізніше",
+      "succsess": "зображення додано"
+    },
+    "main": {
+      "title": "Головна",
+      "Gender": {
+        "name": "Підлога",
+        "male": "Чоловік",
+        "female": "жіночий",
+        "another": "інший"
+      },
+      "Age": {
+        "name": "Вік"
+      },
+      "City": {
+        "name": "Місто"
+      },
+      "Countries": {
+        "name": "Країна"
+      },
+      "Relationship": {
+        "name": "Відносини",
+        "single": "Самотній (а)",
+        "maried": "Одружений (а)",
+        "have": "є відносини"
+      },
+      "Lookingfora": {
+        "name": "шукаю",
+        "woman": "жінку",
+        "man": "чоловіка",
+        "friends": "друзів"
+      },
+      "Lookingforageless": {
+        "name": "Максимальний вік партнера",
+        "text": "до"
+      },
+      "Lookingforagemore": {
+        "name": "Мінімальний вік партнера",
+        "text": "від"
+      }
+    },
+    "activity": {
+      "title": "діяльність",
+      "Education": {
+        "name": "Утворення",
+        "School": "Школа",
+        "PhD": "Наукова ступінь",
+        "Univercitydegree": "Університет",
+        "College": "Коледж"
+      },
+      "Languages": {
+        "name": "мови",
+        "English": "Англійська",
+        "Russian": "Русский",
+        "German": "Німецький",
+        "French": "Французький",
+        "Chinese": "Китайський",
+        "Ukrainian": "Український"
+      },
+      "Interests": {
+        "name": "інтереси",
+        "football": "футбол",
+        "pets": "домашні тварини",
+        "guitar": "гітара",
+        "travel": "подорожі",
+        "videogames": "гри"
+      },
+      "Smoking": {
+        "name": "Куріння",
+        "no": "немає",
+        "sometimes": "іноді",
+        "smoke": "да"
+      },
+      "Workas": {
+        "name": "Робота",
+        "businessman": "бізнесмен",
+        "programmer": "програміст",
+        "engineer": "інженер",
+        "designer": "дизайнер",
+        "teacher": "учитель",
+        "policeman": "поліцейський"
+      }
+    },
+    "appearance": {
+      "title": "зовнішність",
+      "Height": {
+        "name": "Зріст (см)"
+      },
+      "Weight": {
+        "name": "Вага (кг)"
+      },
+      "Bodytype": {
+        "name":  "Телосложніе",
+        "thick": "товсте",
+        "normal": "нормальне",
+        "thin": "худе",
+        "sport": "спортивне"
+      },
+      "Eyes": {
+        "name":  "очі",
+        "grey": "сірі",
+        "brown": "карі",
+        "green": "зелені",
+        "blue": "блакитні"
+      },
+      "Hair": {
+        "name":  "волосся",
+        "long": "довгі",
+        "bold": "лисий",
+        "verylong": "дуже довгі",
+        "normal": "нормальні"
+      }
+    }
+  }
+}

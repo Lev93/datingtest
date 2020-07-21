@@ -1,0 +1,73 @@
+.welcome {
+    padding: 130px 0px 25px 0px;
+}
+
+.welcome-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.welcome__title {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.welcome__title__text {
+    font-size: 30px;
+    color: #2e3c43;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.welcome__title__img {
+    margin: 0 auto;
+}
+
+.welcome__members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome__members__item {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__members__item__number {
+    font-size: 30px;
+    color: #2e3c43;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    padding: 26px 0px 8px 0px;
+    text-align: center;
+}
+
+.welcome__members__item__text {
+    font-size: 16px;
+    color: #2e3c43;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .welcome__members {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1200px) {
+  .welcome-container {
+      width: 1200px;
+  }
+}

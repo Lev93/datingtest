@@ -1,0 +1,122 @@
+.search-input__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.search-input__label {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.search-input__input {
+    padding: 0px 20px;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    color: #334249;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    position: relative;
+    max-width: 150px;
+}
+
+.search-input__input:hover {
+   background-color: #ccc;
+}
+
+.search-input__link {
+    background-color: #fff;
+    padding: 0px 20px;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    color: #334249;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: block;
+    min-width: 150px;
+    position: relative;
+}
+
+.search-input__link:hover {
+    background-color: #ccc;
+ }
+
+.search-input__menu {
+    position: absolute;
+    top: 38px;
+    right: 24px;
+    width: 150px;
+    background-color: #fff;
+    list-style-type: none;
+    width: 210px;
+    padding: 0;
+    z-index: 10;
+}
+
+.search-input__menu__item {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    color: #334249;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.search-input__menu__item:hover {
+    background-color: #ccc;
+ }
+
+.search-input__- {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.search-input__input--number {
+    padding: 0px 20px;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    color: #334249;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.search-input__input--number:hover {
+    background-color: #ccc;
+ }
+
+.search-input__menu__item--active {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    color: #fff;
+    background-color: royalblue;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.search-input__menu__item--active:hover {
+    background-color: blue;
+ }

@@ -1,0 +1,353 @@
+{
+  "Mainmenu": {
+    "Home": "Главная",
+    "Blog": "Блог",
+    "Community": "Сообщество",
+    "Pricing": "Цены",
+    "Aboutus": "О нас",
+    "Login": "Войти", 
+    "Registration": "Регистрация",
+    "Logout": "Выйти",
+    "MyProfile": "Мой Профиль",
+    "advancedsearch": "Продвинутый поиск",
+    "MapSearch": "Поиск по карте",
+    "QuickMatch": "Быстрый подбор",
+    "messages": "Сообщения",
+    "blogCreate": "Создать новый пост"
+  },
+  "loading": "...Загрузка",
+  "error": {
+    "404": "Ошибка 404",
+    "error": "Ошибка",
+    "pagenotfound": "Страница не найдена",
+    "goToHomePage": "На главную",
+    "userNotExist": "Этот пользователь не существует",
+    "networkProblems": "Проблемы с сетью. Попробуйте позже.",
+    "notAuthenticated": "Вы не авторизованы!",
+    "like": "Вы уже поставили лайк!"
+  },
+  "MainPage": {
+    "slogan": "Слоган",
+    "man": "Мужчина",
+    "woman": "Женщина",
+    "iama": "Я",
+    "seeking": "Ищу",
+    "from": "Возраст от",
+    "to": "Возраст до",
+    "search": "Поиск",
+    "welcome": "Добропожаловать на VeroDate",
+    "totalMembers": "Всего пользователей",
+    "membersOnline": "Пользователей онлайн",
+    "menOnline": "Мужчин онлайн",
+    "womenOnline": "Женщин онлайн",
+    "mobileTitle": "Скачать приложение VeroDate",
+    "mobileText": "Бесплатно во всех магазинах Playstore, AppStore и Microsoft Store",
+    "reviews": {
+      "1": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+      "2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+      "3": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
+    },
+    "soulmate": {
+      "maintitle": "Шаги для поиска второй половинки",
+      "createprofile": "Создать профиль",
+      "createprofiletext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+      "findmatches": "Найти совпадение",
+      "findmatchestext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+      "startdating": "Назначитть свидание",
+      "startdatingtext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    "lastRegistered": "Последние зарегистрированные пользователи",
+    "age": " лет",
+    "map": {
+      "title": "Найти людей на карте",
+      "city": "Ваш город",
+      "distance": "Дистанция поиска"
+    } 
+  },
+  "login": {
+    "title": "Войти",
+    "email": "Email адрес",
+    "password": "Пароль",
+    "emailerror": "Некорректный email",
+    "passworderror": "Пароль должен быть 12 символов в длину",
+    "login": "Войти",
+    "resemailerror": "Пользователь с таким email не найден",
+    "respassworderror": "Неверный пароль",
+    "rememberme": "Запомнить меня"
+  },
+  "reg": {
+    "title": "Регистрация",
+    "name": "Имя",
+    "nameerror": "Слишком короткое имя",
+    "gender": "Пол",
+    "male": "Мужской",
+    "female": "Женский",
+    "birhday": "Дата рождения",
+    "password": "Повторите пароль",
+    "passworderror": "Пароли не совпадают",
+    "reg": "Зарегистрироваться",
+    "erroremail": "Проверка не удалась. Убедитесь, что этот email не использовался ранее!",
+    "errornetwork": "Проблемы с сетью. Попробуйте позже."
+  },
+  "footer": {
+    "text1": "There are many variations of passag-es of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+    "text2": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.",
+    "information": "Информация",
+    "aboutus": "О нас",
+    "contactus": "Связаться с нами",
+    "membership": "Membership",
+    "privatepolicy": "Персональные данные",
+    "support": "Поддержка",
+    "posts": "Новые посты",
+    "newstitle": "Новостная рассылка",
+    "newstext": "Получите письмо напрямую в ваш почтовый ящик после каждого поста.",
+    "copyright": "Copyright © 2020. VeroDate. all rights reserved"
+  },
+  "messages": {
+    "title": "Ваши контакты",
+    "searchplaceholder": "Поиск пользователей..",
+    "wasOnline": "был(а) онлайн",
+    "today": "Сегодня",
+    "yesterday": "Вчера",
+    "write": "Напишите ваше сообщение...",
+    "contactsNone": "Контакты не найдены",
+    "block": "Заблокировать этого пользователя",
+    "cancelBlock": "Разблокировать этого пользователя",
+    "filter": {
+      "all": "Все контакты",
+      "unread": "Непрочитанные контакты",
+      "blocked": "Заблокированные контакты",
+      "active": "Активные контакты",
+      "new": "Новые запросы",
+      "usersRequests": "Ваши запросы "
+    },
+    "writing": "Пользователь что-то вам пишет...",
+    "status": {
+      "request sent": "Ваш запрос отправлен. Ждите ответа!",
+      "request": "Этот пользователь хочет познакомится с вами!",
+      "accept": "принять",
+      "decline": "отклонить",
+      "requestDeclined": "Ваш запрос отклонен.",
+      "requestDeclinedUser": "Вы отклонили запрос.",
+      "requestAccepted": "Ваш запрос принят. Теперь вы можете писать сообщения!",
+      "requestAcceptedUser": "Вы приняли запрос. Теперь вы можете писать сообщения!",
+      "blocked": "Контакт заблокирован.",
+      "restore": "Востановить контакт",
+      "blockedByUser": "Пользователь заблокировал вас. Вы больше не можете писать ему."
+    }
+  },
+  "blogs": {
+    "mainTitle": "Блоги",
+    "title": "Все блоги",
+    "readMore": "прочитать полностью",
+    "categories": "Категории",
+    "previous": "Предыдущие",
+    "next": "Следующие",
+    "no": "Посты не найдены",
+    "sort": {
+      "sortby": "Сортировка по",
+      "views": "популярности",
+      "comments": "обсуждаемости",
+      "likes": "райтингу",
+      "date": "дате"
+    },
+    "types": {
+      "all": "Все",
+      "dating": "Знакомства",
+      "news": "Новости",
+      "success": "Истории успеха",
+      "recomendations": "Рекомендации"
+    }
+  },
+  "blogCreate": {
+    "mainTitle": "Блоги",
+    "title": "Создать новый блог",
+    "create": "Создать",
+    "category": "Выбрать категорию",
+    "titleName": "Заголовок"
+  },
+  "blog": {
+    "mainTitle": "Блоги",
+    "title": "Посты",
+    "comments": "Комментарии",
+    "newComment": "Оставить комментарий",
+    "submit": "Отправить"
+  },
+  "community": {
+    "mainTitle": "Сообщество",
+    "advancedSearch": "Продвинутый поиск",
+    "searchResults": "Результаты поиска",
+    "noResults": "Нет результатов",
+    "city": "Город: ",
+    "lastonline": "Был(а) в сети: ",
+    "minAgo": "мин. назад",
+    "hoursAgo": "ч. назад",
+    "daysAgo": "д. назад",
+    "showmore": "Показать ещё",
+    "next": "Следующий",
+    "sort": {
+      "sortby": "Сортировка по",
+      "byregistrationdate": "дате регистрации",
+      "byage": "возрасту",
+      "bylastonline": "последнему заходу на сайт"
+    }
+  },
+  "advancedSearch":{
+    "mainTitle": "Сообщество",
+    "title": "Продвинутый поиск",
+    "searchTitle": "Ищите людей здесь",
+    "chooseOne": "Выберите один пункт",
+    "search": "Поиск",
+    "onlyNew": "Только новые"
+  },
+  "mapSearch": {
+    "title": "Поиск по карте",
+    "find": "Поиск по карте",
+    "advancedSearch": "Открыть расширеный поиск",
+    "closeAdvancedSearch": "Закрыть расширеный поиск",
+    "man": "Мужчину",
+    "woman": "Женщину"
+  },
+  "quickMatch": {
+    "title": "Быстрый подбор",
+    "mainTitle": "Сообщество",
+    "nophotos": "Пользователь не добавил фото.",
+    "error": "Пользователи не найдены.",
+    "noUsers": "Вы просмотрели все анкеты. Попробуйте зайти сюда позже."
+  },
+  "userPage": {
+    "like": "Лайк",
+    "chat": "Начать чат",
+    "aboutme": "Обо мне",
+    "lookingfor": "Ищу",
+    "photo": "Фото",
+    "posts": "Последние посты",
+    "adddescription": "Добавить",
+    "changeAvatar": "Сменить аватар и фон",
+    "confirm": "Подтвердить",
+    "upload": "Загрузить",
+    "chooseAvatar": "Загрузить аватар",
+    "chooseBackground": "Загрузить фон",
+    "choosePhoto": "Добавить новое фото",
+    "avatarUploadDescription": "Максимальный размер автарки 1 Mb. Максимальный размер фона 6 Mb.",
+    "years": "лет",
+    "place": "Моё местоположение",
+    "mapDescription": "Отметьте удобное для встреч местоположение",
+    "imageErrors": {
+      "sizeError": "Файл слишком большой!",
+      "typeError": "Неверный формат!",
+      "networkError": "Проблемы с сетью. Попробуйте позже",
+      "succsess": "Изображение добавлено"
+    },
+    "main": {
+      "title": "Главная",
+      "Gender": {
+        "name": "Пол",
+        "male": "Мужской",
+        "female": "Женский",
+        "another": "Другой"
+      },
+      "Age": {
+        "name": "Возраст"
+      },
+      "City": {
+        "name": "Город"
+      },
+      "Countries": {
+        "name": "Страна"
+      },
+      "Relationship": {
+        "name": "Отношения",
+        "single": "Одинок(а)",
+        "maried": "Женат(а)",
+        "have": "Есть отношения"
+      },
+      "Lookingfora": {
+        "name": "Ищу",
+        "woman": "Женщину",
+        "man": "Мужчину",
+        "friends": "Друзей"
+      },
+      "Lookingforageless": {
+        "name": "Максимальный возраст партнера",
+        "text": "до"
+      },
+      "Lookingforagemore": {
+        "name": "Минимальный возраст партнера",
+        "text": "от"
+      }
+    },
+    "activity": {
+      "title": "Деятельность",
+      "Education": {
+        "name": "Образование",
+        "School": "Школа",
+        "PhD": "Ученая степень",
+        "Univercitydegree": "Университет",
+        "College": "Колледж"
+      },
+      "Languages": {
+        "name": "Языки",
+        "English": "Английский",
+        "Russian": "Русский",
+        "German": "Немецкий",
+        "French": "Французский",
+        "Chinese": "Китайский",
+        "Ukrainian": "Украинский"
+      },
+      "Interests": {
+        "name": "Интересы",
+        "football": "футбол",
+        "pets": "домашние животные",
+        "guitar": "гитара",
+        "travel": "путешествия",
+        "videogames": "игры"
+      },
+      "Smoking": {
+        "name": "Курение",
+        "no": "нет",
+        "sometimes": "иногда",
+        "smoke": "да"
+      },
+      "Workas": {
+        "name": "Работа",
+        "businessman": "бизнесмен",
+        "programmer": "программист",
+        "engineer": "инженер",
+        "designer": "дизайнер",
+        "teacher": "учитель",
+        "policeman": "полицейский"
+      }
+    },
+    "appearance": {
+      "title": "Внешность",
+      "Height": {
+        "name": "Рост(см)"
+      },
+      "Weight": {
+        "name": "Вес(кг)"
+      },
+      "Bodytype": {
+        "name":  "Телосложение",
+        "thick": "толстое",
+        "normal": "нормальное",
+        "thin": "худое",
+        "sport": "спортивное"
+      },
+      "Eyes": {
+        "name":  "Глаза",
+        "grey": "серые",
+        "brown": "карие",
+        "green": "зеленые",
+        "blue": "голубые"
+      },
+      "Hair": {
+        "name":  "Волосы",
+        "long": "длинные",
+        "bold": "лысый",
+        "verylong": "очень длинные",
+        "normal": "нормальные"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.mobile__description__reviews__inner__review {
+    width: 100%;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile__description__reviews__inner__review__text {
+    padding-bottom: 15px;
+}
+
+.mobile__description__reviews__inner__review__author {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.mobile__description__reviews__inner__review__rating {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}

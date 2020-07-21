@@ -1,0 +1,54 @@
+.error404 {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.error404__title {
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #2e3c43;
+}
+
+.error404__main {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #2e3c43;
+    font-size: 150px;
+    line-height: 180px;
+}
+
+.error404__bottom {
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #2e3c43;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    line-height: 50px;
+}
+
+.error404__link {
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: #e74c3c;
+    outline: none;
+    padding: 15px 25px;
+    border: 1px solid #e74c3c;
+}
+
+.error404__link:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s, color ease-in-out 0.5s;
+}

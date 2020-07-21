@@ -1,0 +1,97 @@
+.map__search__container {
+    padding: 80px 0px 50px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map__search__title__container {
+    padding-bottom: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map__search__title {
+    font-size: 30px;
+    color: #2e3c43;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.map__search__form {
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+.map__search__advanced__link {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-right: 20px;
+    float: right;
+}
+
+.map__search__advanced__link--close {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-right: 20px;
+    float: right;
+}
+
+.map__search__advanced__link::after {
+    position: absolute;
+    content: '';
+    background-image: url("./arrow-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: -20px;
+    transform: rotate(180deg);
+}
+
+.map__search__advanced__link--close::after {
+    position: absolute;
+    content: '';
+    background-image: url("./arrow-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: -20px;
+}
+
+@media (min-width: 480px) {
+    .map__search__form__input__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .map__search__form__input {
+        width: auto;
+        max-width: 160px;
+    }
+}
+
+@media (min-width: 992px) {
+    .map__search__form__range__container {
+        width: 60%;
+    }
+}

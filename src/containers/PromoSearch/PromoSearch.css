@@ -1,0 +1,53 @@
+.promo__search__container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.promo__search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  border-radius: 55px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .promo__search__container {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .promo__search {
+    background-color: #fff;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .promo__search__container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .promo__search {
+    width: 840px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .promo__search {
+    width: 1070px;
+  }
+}

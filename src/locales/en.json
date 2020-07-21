@@ -1,0 +1,355 @@
+{
+    "Mainmenu": {
+      "Home": "Home",
+      "Blog": "Blog",
+      "Community": "Community",
+      "Pricing": "Pricing",
+      "Aboutus": "About us",
+      "Login": "Login", 
+      "Registration": "Registration",
+      "Logout": "Logout",
+      "MyProfile": "My Profile",
+      "advancedsearch": "Advanced search",
+      "MapSearch": "Map Search",
+      "QuickMatch": "Quick Match",
+      "messages": "Messages",
+      "blogCreate": "Create new post"
+    },
+    "loading": "...Loading",
+    "error": {
+      "404": "404 Error",
+      "error": "Error",
+      "pagenotfound": "Page Not Found",
+      "goToHomePage": "Go to Home Page",
+      "userNotExist": "This user does not exist.",
+      "networkProblems": "There are some problems with network. Please try again later.",
+      "notAuthenticated": "Not Authenticated",
+      "like": "You have already liked this post!",
+      "typeError": "Invalid format. Try jpeg or png",
+      "sizeError": "This file is too big!"
+    },
+    "MainPage": {
+      "slogan": "Slogan",
+      "man": "Man",
+      "woman": "Woman",
+      "iama": "I am a",
+      "seeking": "Seeking a",
+      "from": "From",
+      "to": "To",
+      "search": "Search",
+      "welcome": "Welcome to VeroDate",
+      "totalMembers": "Total Members",
+      "membersOnline": "Members online",
+      "menOnline": "Men Online",
+      "womenOnline": "Women Online",
+      "mobileTitle": "Download VeroDate app",
+      "mobileText": "Free Available in All Store PlayStore, AppStore and Microsoft Store",
+      "reviews": {
+        "1": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+        "2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution.",
+        "3": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
+      },
+      "soulmate": {
+        "maintitle": "Step to Find Your Soul mate",
+        "createprofile": "Create a profile",
+        "createprofiletext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "findmatches": "Find matches",
+        "findmatchestext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+        "startdating": "Start Dating",
+        "startdatingtext": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+      },
+      "lastRegistered": "Latest registered members",
+      "age": " years old",
+      "map": {
+        "title": "Find People in Map",
+        "city": "Your city",
+        "distance": "Search Distance"
+      } 
+    },
+    "login": {
+      "title": "User Login",
+      "email": "Email adress",
+      "password": "Password",
+      "emailerror": "Incorrect email",
+      "passworderror": "password must be at least 12 characters long",
+      "login": "LogIn",
+      "resemailerror": "A user with this email could not be found.",
+      "respassworderror": "Wrong password",
+      "rememberme": "Remember me"
+    },
+    "reg": {
+      "title": "Registration",
+      "name": "Name",
+      "nameerror": "Too short name",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "birhday": "Birthday",
+      "password": "Repeat password",
+      "passworderror": "Password mismatch",
+      "reg": "Registration",
+      "erroremail": "Validation failed. Make sure the email address isn't used yet!",
+      "errornetwork": "Network problems. Please try again later!"
+    },
+    "footer": {
+      "text1": "There are many variations of passag-es of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+      "text2": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.",
+      "information": "Information",
+      "aboutus": "About us",
+      "contactus": "Contact us",
+      "membership": "Membership",
+      "privatepolicy": "Private Policy",
+      "support": "Support",
+      "posts": "Recent posts",
+      "newstitle": "Newsletter Signup",
+      "newstext": "Get Alert Directly Into Your Inbox After Each Post.",
+      "copyright": "Copyright © 2020. VeroDate. all rights reserved"
+    },
+    "messages": {
+      "title": "Your Contacts",
+      "searchplaceholder": "Search users...",
+      "wasOnline": "was online",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "write": "Write your message...",
+      "contactsNone": "No contacts found",
+      "block": "Block this user",
+      "cancelBlock": "Unblock this user",
+      "filter": {
+        "all": "All contacts",
+        "unread": "Unread contacts",
+        "blocked": "Blocked contacts",
+        "active": "Active contacts",
+        "new": "New requests",
+        "usersRequests": "Your requests"
+      },
+      "writing": "The user is writing something to you ...",
+      "status": {
+        "request sent": "Your request has been sent. Wait for another user reply!",
+        "request": "This user wants to meet you!",
+        "accept": "accept",
+        "decline": "decline",
+        "requestDeclined": "The request was rejected",
+        "requestDeclinedUser": "You have denied the request.",
+        "requestAccepted": "The request was accepted. Now you can write messages!",
+        "requestAcceptedUser": "You have accepted the request.Now you can write messages!",
+        "blocked": "Contact is blocked",
+        "restore": "Restore contact",
+        "blockedByUser": "The user blocked you. You can no longer write messages to him."
+      }
+    },
+    "blogs": {
+      "mainTitle": "Blogs",
+      "title": "All blogs",
+      "readMore": "Read More",
+      "categories": "Categories",
+      "previous": "Previous",
+      "next": "Next",
+      "no": "Posts are not found",
+      "sort": {
+        "sortby": "Sort by",
+        "views": "popularity",
+        "comments": "discussability",
+        "likes": "rating",
+        "date": "date"
+      },
+      "types": {
+        "all": "All",
+        "dating": "Dating",
+        "news": "News",
+        "success": "Success Stories",
+        "recomendations": "Recomendations"
+      }
+    },
+    "blogCreate": {
+      "mainTitle": "Blogs",
+      "title": "Create new blog",
+      "create": "Create",
+      "category": "Choose category",
+      "titleName": "Title"
+    },
+    "blog": {
+      "mainTitle": "Blogs",
+      "title": "Post",
+      "comments": "Comments",
+      "newComment": "Leave a Comment",
+      "submit": "Submit"
+    },
+    "community": {
+      "mainTitle": "Community",
+      "advancedSearch": "search",
+      "searchResults": "Search Results",
+      "noResults": "No Results",
+      "city": "City: ",
+      "lastonline": "Last online: ",
+      "minAgo": "min. ago",
+      "hoursAgo": "h. ago",
+      "daysAgo": "d. ago",
+      "showmore": "Show more",
+      "next": "next",
+      "sort": {
+        "sortby": "sort by",
+        "byregistrationdate": "registration date",
+        "byage": "age",
+        "bylastonline": "last online"
+      }
+    },
+    "advancedSearch":{
+      "mainTitle": "Community",
+      "title": "Advanced search",
+      "searchTitle": "Search people here",
+      "chooseOne": "Choose one",
+      "search": "Search",
+      "onlyNew": "only new"
+    },
+    "mapSearch": {
+      "title": "Map search",
+      "find": "Find people in map",
+      "advancedSearch": "Open advanced search",
+      "closeAdvancedSearch": "Close advanced search",
+      "man": "Man",
+      "woman": "Woman"
+    },
+    "quickMatch": {
+      "title": "Quick Match",
+      "mainTitle": "Community",
+      "nophotos": "User has not added photos.",
+      "error": "No users found.",
+      "noUsers": "You have reviewed all available profiles. Please, try again later."
+    },
+    "userPage": {
+      "like": "Like",
+      "chat": "Chat now",
+      "aboutme": "About me",
+      "lookingfor": "Looking For",
+      "photo": "Photo",
+      "posts": "Recent Posts",
+      "adddescription": "Add",
+      "changeAvatar": "Change your Avatar and Background",
+      "confirm": "Confirm",
+      "upload": "Upload",
+      "chooseAvatar": "Upload avatar",
+      "chooseBackground": "Upload background",
+      "choosePhoto": "Add new photo",
+      "avatarUploadDescription": "Maximum size of avatar is 1 Mb and resolution is 1000x1000px. Maximum size of background image is 6 Mb.",
+      "years": "years old",
+      "place": "My location",
+      "mapDescription": "Mark your location on the map convenient for meetings.",
+      "imageErrors": {
+        "sizeError": "This file is too big!",
+        "typeError": "This is not an image!",
+        "networkError": "Network problems. Please try again later",
+        "succsess": "The image is uploaded"
+      },
+      "main": {
+        "title": "Main",
+        "Gender": {
+          "name": "Gender",
+          "male": "male",
+          "female": "female",
+          "another": "another"
+        },
+        "Age": {
+          "name": "Age"
+        },
+        "City": {
+          "name": "City"
+        },
+        "Countries": {
+          "name": "Country"
+        },
+        "Relationship": {
+          "name": "Relationship",
+          "single": "Single",
+          "maried": "Maried",
+          "have": "Have a relationship"
+        },
+        "Lookingfora": {
+          "name": "Looking for a",
+          "woman": "Woman",
+          "man": "Man",
+          "friends": "Friends"
+        },
+        "Lookingforageless": {
+          "name": "Maximum age of partner",
+          "text": "to"
+        },
+        "Lookingforagemore": {
+          "name": "Minimum age of partner",
+          "text": "from"
+        }
+      },
+      "activity": {
+        "title": "Activity",
+        "Education": {
+          "name": "Education",
+          "School": "School",
+          "PhD": "Ph.D",
+          "Univercitydegree": "Univercity degree",
+          "College": "College"
+        },
+        "Languages": {
+          "name": "Languages",
+          "English": "English",
+          "Russian": "Russian",
+          "German": "German",
+          "French": "French",
+          "Chinese": "Chinese",
+          "Ukrainian": "Ukrainian"
+        },
+        "Interests": {
+          "name": "Interests",
+          "football": "football",
+          "pets": "pets",
+          "guitar": "guitar",
+          "travel": "travel",
+          "videogames": "videogames"
+        },
+        "Smoking": {
+          "name": "Smoking",
+          "no": "no",
+          "sometimes": "sometimes",
+          "smoke": "yes"
+        },
+        "Workas": {
+          "name": "Work as",
+          "businessman": "businessman",
+          "programmer": "programmer",
+          "engineer": "engineer",
+          "designer": "designer",
+          "teacher": "teacher",
+          "policeman": "policeman"
+        }
+      },
+      "appearance": {
+        "title": "Appearance",
+        "Height": {
+          "name": "Height(cm)"
+        },
+        "Weight": {
+          "name": "Weight(kg)"
+        },
+        "Bodytype": {
+          "name":  "Bodytype",
+          "thick": "thick",
+          "normal": "normal",
+          "thin": "thin",
+          "sport": "sport"
+        },
+        "Eyes": {
+          "name":  "Eyes",
+          "grey": "grey",
+          "brown": "brown",
+          "green": "green",
+          "blue": "blue"
+        },
+        "Hair": {
+          "name":  "Hair",
+          "long": "long",
+          "bold": "bold",
+          "verylong": "verylong",
+          "normal": "normal"
+        }
+      }
+    }
+}

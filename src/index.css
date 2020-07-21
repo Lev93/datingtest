@@ -1,0 +1,22 @@
+body {
+    line-height: 24px;
+    font-size: 15px;
+    overflow: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.quick-match {
+    background: #f4f4f4;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.quick-match__users {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.quick-match__users__user {
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.quick-match__users__link {
+    width: 70px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-match__users__user__img {
+   border-radius: 50%;
+   width: 100%;
+   display: block;
+}
+
+@media (min-width: 768px) {
+    .quick-match__users {
+        width: 750px;
+    }
+    .quick-match__users__user {
+        width: 16.66666%;
+    }
+}
+
+@media (min-width: 992px) {
+    .quick-match__users {
+        width: 970px;
+    }
+    .quick-match__users__user {
+        width: 8.33333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .quick-match__users {
+        width: 1200px;
+    }
+}

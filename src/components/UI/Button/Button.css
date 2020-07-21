@@ -1,0 +1,92 @@
+.redButton {
+    white-space: nowrap;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
+    background-color: #e74c3c;
+    margin-left: 20px;
+    outline: none;
+}
+
+.redButton:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s, color ease-in-out 0.5s;
+}
+
+.redButton:disabled {
+    background-color: gray;
+}
+
+.optionButton {
+    background-color: royalblue;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.optionButton:hover {
+    background-color: darkblue;
+}
+
+.optionButton--active {
+    outline: none;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.optionButton--active:hover {
+    background-color: darkred;
+}
+
+.confirm {
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .redButton {
+        margin-top: 15px;
+    }
+}
+
+

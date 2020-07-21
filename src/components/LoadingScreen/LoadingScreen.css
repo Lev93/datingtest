@@ -1,0 +1,71 @@
+.loading {
+    height: 70rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+}
+
+.loading__conteiner__text {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 45px 0px;
+    color: #fff;
+}
+
+@keyframes ldio-knom4ee6oj {
+    0% { transform: scale(.85) }
+    5% { transform: scale(1) }
+   39% { transform: scale(.75) }
+   45% { transform: scale(.9) }
+   60% { transform: scale(.85) }
+  100% { transform: scale(.8) }
+}
+.ldio-knom4ee6oj > div {
+  animation: ldio-knom4ee6oj 1s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: 97.5px 97.5px;
+}
+.ldio-knom4ee6oj > div div {
+  top: 63.375px;
+  left: 48.75px;
+  position: absolute;
+  width: 97.5px;
+  height: 97.5px;
+  background: #ffffff;
+  transform: rotate(45deg);
+}
+.ldio-knom4ee6oj > div div:after, .ldio-knom4ee6oj > div div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 97.5px;
+  height: 97.5px;
+  background: #ffffff;
+}
+.ldio-knom4ee6oj > div div:before {
+  left: -63.375px;
+  border-radius: 50% 0 0 50%;
+}
+.ldio-knom4ee6oj > div div:after {
+  top: -63.375px;
+  border-radius: 50% 50% 0 0;
+} 
+.loadingio-spinner-heart-wyz5f2mzzv {
+  width: 195px;
+  height: 195px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgba(NaN, NaN, NaN, 0);
+}
+.ldio-knom4ee6oj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-knom4ee6oj div { box-sizing: content-box; }

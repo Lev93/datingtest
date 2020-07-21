@@ -1,0 +1,499 @@
+.profile-about {
+    padding: 80px 0px 80px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-about__description__menu {
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.profile-about__description__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.profile-about__description__item {
+    padding: 0px 25px;
+}
+
+.profile-about__description__item__text {
+    line-height: 40px;
+    font-family: "Ubuntu", sans-serif;
+    color: #2e3c43;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    transition: all 400ms linear 0s;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    display: block;
+}
+
+.profile-about__description__item__text--active {
+    color: #e74c3c;
+    border-bottom: 3px solid #e74c3c;
+}
+
+.profile-about__description__blocks {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-about__description__block {
+    width: 100%;
+}
+
+.profile-about__description__block--displaynone {
+    display: none;
+}
+
+.profile-about__description__block__items {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.profile-about__description__block__item {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.profile-about__description__block__item__key {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    color: #334249;
+    width: 50%;
+}
+
+.profile-about__description__block__item__value {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    color: #334249;
+    font-weight: bold;
+    width: 50%;
+}
+
+.profile-about__description__block__item__value__popup {
+    position: absolute;
+    max-width: 50%;
+    background-color: #fff;
+    z-index: 90;
+    left: 50%;
+    top: 24px;
+    border: 2px solid royalblue;
+    border-radius: 15px;
+}
+
+.profile-about__description__block__item__value__popup__close {
+    position: absolute;
+    background-image: url('./close-btn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    right: 5px;
+    top: 5px;
+}
+
+.profile-about__description__block__item__value__popup {
+    animation: openpopup 0.2s ease-out forwards;
+}
+
+@keyframes openpopup {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.profile-about__description__block__item__value__popup--wrapper {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-about__description__block__item__value__popup__form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.profile-about__description__block__item__value__popup__form input {
+    width: 90%;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.profile-about__description__block__item__value__popup__form input:focus {
+    outline: none;
+    border: 2px solid #e74c3c;
+}
+
+.profile-about__description__block__item__value__popup--wrapper--search {
+    list-style-type: none;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.profile-about__description__block__item__value__popup--wrapper--search li{
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.profile-about__description__block__item__value__popup--wrapper--search li:hover {
+    background-color: royalblue;
+    color: #fff;
+    transition: background-color ease-in-out 0.2s, color ease-in-out 0.2s;
+}
+
+.profile-about__description__block__item__value__popup__button--wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-about__description__aboutme {
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 30px 22px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.profile-about__description__aboutme__title {
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #2e3c43;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.profile-about__description__aboutme__title2 {
+    font-size: 22px;
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #334249;
+}
+
+.profile-about__description__aboutme__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Ubuntu", sans-serif;
+    color: #334249;
+}
+
+.profile-about__aside-block {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+.profile-about__aside-block__photo {
+    margin-bottom: 50px;
+}
+
+.profile-about__aside-block__photo__title__conteiner {
+    padding-bottom: 17px;
+}
+
+.profile-about__aside-block__photo__title__text {
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #2e3c43;
+    padding-bottom: 3px;
+}
+
+.profile-about__aside-block__photo__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.profile-about__aside-block__photo__list__item__a {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-about__aside-block__photo__list__item__message {
+  position: absolute;
+  display: block;
+  padding: 5px;
+  background-color: #fff;
+  border: 2px solid #e74c3c;
+  z-index: 200;
+}
+
+.profile-about__aside-block__photo__list__item__form {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-about__aside-block__photo__list__item__a img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+.profile-about__aside-block__photo__list__item {
+    width: 33.33%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.photo__swiper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 60, 67, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo__swiper--opened {
+    transform:translateY(0);
+    transition-duration: 0.5s;
+}
+
+.photo__swiper--closed {
+    transform:translateY(-3000px);
+    transition-duration: 0.5s;
+}
+
+.photos-conteiner {
+    height: 2000px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.photos-conteiner__button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    background-image: url('./close.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    z-index: 4000;
+    cursor: pointer;
+}
+
+.photo-slide {
+    height: 100vh;
+    max-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.profile-about__aside-block__posts__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-about__aside-block__posts__list__post {
+    margin-top: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-about__aside-block__posts__list__post__img-conteiner {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-about__aside-block__posts__list__post__text {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #2e3c43;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.profile-about__aside-block__posts__list__post__text:hover {
+    color: #e74c3c;
+}
+
+.profile-about__aside-block__posts__list__post__date {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    color: #2e3c43;
+    padding-top: 15px;
+}
+
+.profile-about__description__aboutme__input {
+    width: 100%;
+    min-height: 100px;
+    font-size: 16px;
+    border: 2px solid royalblue;
+    border-radius: 16px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.profile-about__description__aboutme__input:focus {
+    border: 2px solid #e74c3c;
+}
+
+.file__input {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.file__input + label {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #e74c3c;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.file__input:focus + label,
+.file__input + label:hover {
+    background-color: darkred;
+}
+
+.inputfile + label {
+	cursor: pointer; 
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.image-error__text {
+    font-size: 14px;
+    color: #e74c3c;
+}
+
+.profile-about__avatar__upload__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
+.profile-about__avatar__upload__form {
+  width: 200px;
+}
+
+.profile-about__avatar__upload__button--text {
+    padding-left: 10px;
+}
+
+.profile-about__avatar__upload__button {
+   padding: 10px;
+}
+
+.profile-about__avatar__upload__messages {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-about__photo__upload__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-about__photo__upload__button--text {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.profile-about__map__conteiner {
+    width: 100%;
+    height: 400px;
+}
+
+@media (min-width: 992px) {
+    .profile-about {
+        flex-direction: row;
+        width: 992px;
+    }
+
+    .profile-about__aside-block {
+        margin-top: 0;
+        width: 30%;
+    }
+
+    .profile-about__description {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile-about {
+        width: 1200px;
+    }
+}
