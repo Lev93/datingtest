@@ -410,7 +410,6 @@ class ProfileAbout extends Component {
   }
 
   renderPhotos = () => {
-    console.log(this.state.photo.status);
     if (this.state.photo.status !== 'waiting' && this.state.photo.status !== 'succsess') {
       return null;
     }
