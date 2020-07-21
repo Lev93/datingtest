@@ -21,12 +21,10 @@ exports.main = async (req, res, next) => {
         );
       }
     }
-    const gfg = await db.execute(`SELECT 
-    * FROM contacts ;`);
     const contacts = await db.execute(`SELECT
-        first_user_id, second_user_id, contacts.created_at AS contact_created_at, status, name, 
+        first_user_id, second_user_id, contact_created_at, status, name, 
         avatar, online, last_online, MAX(message_id) AS message_contact,
-        MAX(messages.created_at) as date, 
+        MAX(message_created_at) as date, 
         SUM (CASE WHEN sender_id = first_user_id THEN 0
           ELSE readed 
           END ) AS new_messages
@@ -41,7 +39,7 @@ exports.main = async (req, res, next) => {
         ORDER BY date DESC;`);
     const ids = contacts[0].map((el) => el.message_contact).join(', ');
     if (ids.length > 0) {
-      const messages = await db.execute(`SELECT message FROM messages WHERE message_id IN (${ids}) ORDER BY created_at DESC;`);
+      const messages = await db.execute(`SELECT message FROM messages WHERE message_id IN (${ids}) ORDER BY message_created_at DESC;`);
       for (let i = 0; i < contacts[0].length; i += 1) {
         contacts[0][i].last_message = messages[0][i].message;
       }
@@ -62,7 +60,7 @@ exports.messages = async (req, res, next) => {
     const messages = await db.execute(`SELECT * FROM messages 
     WHERE sender_id=${userId} AND receiver_id =${second_user_id} OR 
     sender_id=${second_user_id} AND receiver_id =${userId}
-    ORDER BY created_at
+    ORDER BY message_created_at
     LIMIT 100;
     ;`);
     await db.execute(`UPDATE messages SET readed='0' WHERE receiver_id=${userId} AND sender_id=${second_user_id}`);
@@ -150,9 +148,9 @@ exports.filter = async (req, res, next) => {
       having = 'HAVING new_messages >= 1';
     }
     const contacts = await db.execute(`SELECT
-    first_user_id, second_user_id, contacts.created_at AS contact_created_at, status, name, 
+    first_user_id, second_user_id, contact_created_at, status, name, 
     avatar, online, last_online, MAX(message_id) AS message_contact,
-    MAX(message.created_at) as date, 
+    MAX(message_created_at) as date, 
     SUM (CASE WHEN sender_id = first_user_id THEN 0
       ELSE readed 
       END ) AS new_messages
@@ -168,7 +166,7 @@ exports.filter = async (req, res, next) => {
     ORDER BY date DESC;`);
     const ids = contacts[0].map((el) => el.message_contact).join(', ');
     if (ids.length > 0) {
-      const messages = await db.execute(`SELECT message FROM messages WHERE message_id IN (${ids}) ORDER BY created_at DESC;`);
+      const messages = await db.execute(`SELECT message FROM messages WHERE message_id IN (${ids}) ORDER BY message_created_at DESC;`);
       for (let i = 0; i < contacts[0].length; i += 1) {
         contacts[0][i].last_message = messages[0][i].message;
       }
@@ -187,9 +185,9 @@ exports.searchContacts = async (req, res, next) => {
   try {
     const { userId, searchValue } = req.body;
     const contacts = await db.execute(`SELECT
-    first_user_id, second_user_id, contacts.created_at, status, name, 
+    first_user_id, second_user_id, contact_created_at, status, name, 
     avatar, online, last_online, MAX(message_id) AS message_contact,
-    MAX(messages.created_at) as date, 
+    MAX(message_created_at) as date, 
     SUM (CASE WHEN sender_id = first_user_id THEN 0
       ELSE readed 
       END ) AS new_messages
