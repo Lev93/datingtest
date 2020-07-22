@@ -122,12 +122,18 @@ const footer = (state = true, action) => {
 const newMessages = (state = 0, action) => {
   switch (action.type) {
     case 'UPDATE_MESSAGES': {
+      console.log('update message')
+      console.log(action.payload)
       return action.payload;
     }
     case 'ADD_MESSAGE': {
+      console.log('new message')
+      console.log(state + 1)
       return state + 1;
     }
     case 'REMOVE_MESSAGES': {
+      console.log('remove message')
+      console.log(state - action.payload)
       return state - action.payload;
     }
     default:

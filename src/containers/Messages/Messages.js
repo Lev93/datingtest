@@ -191,8 +191,8 @@ class MainPage extends Component {
       const index = updatedContacts.findIndex((el) => el.contact_created_at
           === contact.contact_created_at);
       const oldNewMessages = updatedContacts[index].new_messages;
-      updatedContacts[index].new_messages = 0;
       this.props.removeMessages(oldNewMessages);
+      updatedContacts[index].new_messages = 0;
       this.setState({
         chat: 'visible',
         activeContact: contact,
