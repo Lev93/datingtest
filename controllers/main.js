@@ -11,7 +11,7 @@ exports.main = async (req, res, next) => {
       language,
     } = req.body;
     const info = await db.execute('SELECT gender, online, Count(gender) AS totalmembers FROM users GROUP BY gender, online');
-    const lastRegisteredUsers = await db.execute('SELECT id, name, birthday, avatar FROM users ORDER BY created_at DESC LIMIT 20');
+    const lastRegisteredUsers = await db.execute('SELECT id, name, birthday, avatar FROM users ORDER BY id DESC LIMIT 20');
     let users;
     if (userId) {
       const user = await db.execute(`SELECT lat, lng FROM users WHERE id='${userId}'`);
