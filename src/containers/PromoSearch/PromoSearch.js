@@ -69,6 +69,10 @@ class PromoSearch extends Component {
 
   search = (e) => {
     e.preventDefault();
+    if (!this.props.user.isAuth) {
+      this.props.addError('notAuthenticated');
+      return;
+    }
     const controls = { ...this.state.controls };
     const parametersArray = [];
     if (controls.genderMain.value === 'mapSearch.woman') {

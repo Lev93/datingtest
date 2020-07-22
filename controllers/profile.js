@@ -36,6 +36,7 @@ exports.main = async (req, res, next) => {
 exports.update = async (req, res, next) => {
   try {
     const { item, option, userId } = req.body;
+    console.log(req.body);
     if (item === 'coordinates') {
       await db.execute(`UPDATE users SET lat='${option.lat}', lng='${option.lng}' WHERE id='${userId}'`);
     } else {

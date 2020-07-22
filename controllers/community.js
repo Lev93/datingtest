@@ -156,8 +156,8 @@ exports.quickmatch = async (req, res, next) => {
       FROM (SELECT * FROM contacts WHERE first_user_id = '${userId}') AS contacts
       RIGHT JOIN users ON contacts.second_user_id = users.id
       RIGHT JOIN countries ON users.country_id = countries.id
-      WHERE first_user_id = '${userId}' AND status='request waiting' AND gender = '${sex}' AND birthday BETWEEN '${to}' AND '${from}'
-      OR first_user_id IS NULL AND gender = '${sex}' AND birthday BETWEEN '${to}' AND '${from}'
+      WHERE 
+      first_user_id IS NULL AND gender = '${sex}' AND birthday BETWEEN '${to}' AND '${from}'
       ORDER BY matches DESC, distance
       LIMIT 12;
       `);

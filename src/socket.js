@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
 
-const socket = openSocket('https://datingtest123.herokuapp.com/');
+const socket = openSocket('http://localhost:3000');
 
 export default socket;

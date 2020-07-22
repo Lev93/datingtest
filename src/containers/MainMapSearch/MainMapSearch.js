@@ -97,6 +97,10 @@ class MainMapSearch extends Component {
 
   search = (e) => {
     e.preventDefault();
+    if (!this.props.user.isAuth) {
+      this.props.addError('notAuthenticated');
+      return;
+    }
     const controls = { ...this.state.controls };
     let { lat, lng } = this.props.coordinates;
     const parametersArray = [];

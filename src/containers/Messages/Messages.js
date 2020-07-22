@@ -80,7 +80,6 @@ class MainPage extends Component {
   }
 
   addWriting = (data) => {
-    console.log(data);
     const updatedContacts = [...this.state.contacts];
     const contactIndex = updatedContacts.findIndex(
       (el) => el.second_user_id === Number.parseInt(data.sender_id, 10),

@@ -6,7 +6,6 @@ const io = require('../socket');
 exports.main = async (req, res, next) => {
   try {
     const { userId, second_user_id } = req.body;
-    console.log(req.body)
     if (second_user_id) {
       const test = await db.execute(`SELECT 
       first_user_id, second_user_id FROM contacts 
@@ -45,7 +44,6 @@ exports.main = async (req, res, next) => {
         contacts[0][i].last_message = messages[0][i].message;
       }
     }
-    console.log(contacts[0])
     res.status(200).json({ contacts: contacts[0] });
   } catch (err) {
     if (!err.statusCode) {

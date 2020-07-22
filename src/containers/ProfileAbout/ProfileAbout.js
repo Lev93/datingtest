@@ -504,7 +504,7 @@ class ProfileAbout extends Component {
                 <textarea type="text" className="profile-about__description__aboutme__input" value={this.props.textarea.lookingfor} onChange={this.props.textareaChangeHandler('lookingfor')}></textarea>
                 <Button classes={'redButton'} type={'submit'} clicked={this.props.submitTextHandler('lookingfor')}>userPage.confirm</Button>
               </form>
-            : <p className="profile-about__description__aboutme__text">{this.props.user.lookingfortext}</p>
+            : <p className="profile-about__description__aboutme__text">{this.props.user.lookingfor}</p>
           }
         </div>
         <div className="profile-about__description__aboutme">

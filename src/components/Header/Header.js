@@ -66,11 +66,6 @@ const Header = (props) => {
                 </li>
                 <li className="navbar__menu__list__item">
                 <NavLink to="/blogs" onClick={props.closeMenu} activeClassName="navbar__menu__list__item__link--active" className="navbar__menu__list__item__link"><Trans>Mainmenu.Blog</Trans></NavLink>
-                <ul className="navbar__menu__list__item-menu navbar__menu__list__item-menu--opened">
-                  <li className="navbar__menu__list__item-menu__item">
-                    <NavLink to="/blogs/create" onClick={props.closeMenu} activeClassName="navbar__menu__list__item__link--active" className="navbar__menu__list__item-menu__item__link"><Trans>Mainmenu.blogCreate</Trans></NavLink>
-                  </li>
-                </ul>
               </li>
               </React.Fragment> }
             </ul>
